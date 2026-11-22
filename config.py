@@ -4,10 +4,10 @@ from dotenv import load_dotenv
 # Load from .env file
 load_dotenv()
 
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "9083417412:AAEBrdLW5jhRusS8tqXAOVEq-K6BYlH0exs")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 
 # AI Provider API Keys
-EXA_API_KEY = os.getenv("EXA_API_KEY", "216a0e4e-1a3a-425e-b1c6-365f5478c792")
+EXA_API_KEY = os.getenv("EXA_API_KEY", "216a0e4exxxxxxxxxxxxxxxxx")
 EXA_BASE_URL = os.getenv("EXA_BASE_URL", "https://api.exa.ai")
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
